@@ -1,0 +1,26 @@
+{
+  "name": "json-schema-to-db-model-core",
+  "version": "1.0.0",
+  "description": "Core functionality to create database models from json schema",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./src --coverage",
+    "lint": "eslint ./src",
+    "format:verify": "prettier --list-different '{src,tests}/**/*.js'",
+    "format": "prettier --write '{src,tests}/**/*.js'"
+  },
+  "author": "Django Shelton",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.flattendeep": "4.4.0",
+    "mustache": "3.0.0",
+    "winston": "3.1.0"
+  },
+  "devDependencies": {
+    "eslint": "5.8.0",
+    "eslint-config-prettier": "3.1.0",
+    "eslint-plugin-prettier": "3.0.0",
+    "jest": "23.6.0",
+    "prettier": "1.14.3"
+  }
+}
