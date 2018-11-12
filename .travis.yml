@@ -1,0 +1,15 @@
+language: node_js
+node_js:
+- "8.9.4"
+- stage: build
+    script: 
+      - npm run format:verify
+      - npm run lint
+      - npm run test
+- stage: publish
+  deploy:
+    provider: npm
+    email: ${NPM_EMAIL}
+    api_key: ${NPM_TOKEN}
+    on:
+      branch: master
