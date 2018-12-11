@@ -2,6 +2,8 @@
 
 Core functions to create Sequelize database models (http://docs.sequelizejs.com/manual/tutorial/models-definition.html) from json schema (https://json-schema.org/). 
 
+NPM package: https://www.npmjs.com/package/json-schema-to-db-model-core
+
 ## Usage:
 
 `npm install --save json-schema-to-db-model-core`
