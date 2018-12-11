@@ -2,6 +2,10 @@
   "name": "json-schema-to-db-model-core",
   "version": "1.0.0",
   "description": "Core functionality to create database models from json schema",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Djangofs/json-schema-to-db-model-core.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "jest ./src --coverage",
